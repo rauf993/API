@@ -1,0 +1,41 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #007BFF;
+}
+
+.country-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Espacio entre tarjetas */
+}
+
+.country {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px; /* Ancho fijo para cada tarjeta */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Alineación del texto al centro */
+}
+
+.country h2 {
+    color: #007BFF; /* Color azul para los títulos */
+    margin: 0 0 10px 0; /* Espaciado alrededor del título */
+}
+
+.country p {
+    font-size: 16px; /* Tamaño de fuente para el contenido */
+    color: #666; /* Color gris para el texto */
+    line-height: 1.5; /* Espaciado entre líneas de texto */
+}
